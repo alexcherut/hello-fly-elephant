@@ -2,6 +2,8 @@
 #include <stdlib.h>
 
 int main() {
-    printf("Hello, FlyElephant!\n");
+    FILE *f = fopen("hello.txt","wb");
+    fprintf(f, "Hello, FlyElephant!\n");
+    fclose(f);
     return 0;
 }
