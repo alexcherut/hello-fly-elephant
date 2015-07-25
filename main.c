@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 int main() {
-    FILE *f = fopen("hello.txt","wb");
-    fprintf(f, "Hello, FlyElephant!\n");
+//    FILE *f = fopen("hello.txt","wb");
+//    fprintf(f, "Hello, FlyElephant!\n");
     printf("Hello, stdout!\n");
-    fclose(f);
+//    fclose(f);
     return 0;
 }
